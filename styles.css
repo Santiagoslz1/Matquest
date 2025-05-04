@@ -1,0 +1,32 @@
+body {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Blackboard_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Chalkboard', sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#timerBar {
+    animation: timer linear 10s;
+}
+
+@keyframes timer {
+    0% { width: 100%; }
+    100% { width: 0%; }
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #ccc;
+}
+
+input {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    font-size: 1.2rem;
+}
